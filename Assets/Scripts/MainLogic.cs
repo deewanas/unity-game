@@ -136,6 +136,8 @@ public class MainLogic : MonoBehaviour
 
     public void OnBack2ButtonClick()
     {
+        UpdateScore();
+        hero.Score = 0;
         SceneManager.LoadScene("PlayScene");
     }
 
