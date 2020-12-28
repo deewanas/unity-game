@@ -12,8 +12,6 @@ public class HighscoresTable : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        //score.text = "wer";
-        //score.color = new Color(146, 146, 146);
         Dictionary<string, int> table = new Dictionary<string, int>();
         for(int i = 0; i < MainLogic.usernames.Length; i++)
         {
@@ -36,10 +34,6 @@ public class HighscoresTable : MonoBehaviour
             }
             x++;
         }
-        //for(int i = 0; i < MainLogic.usernames.Length; i++)
-        //{
-            //score.text += i+1 + ")   " + MainLogic.usernames[i] + ":   " + MainLogic.highscores[i] + '\n';
-        //}
     }
 
     // Update is called once per frame
