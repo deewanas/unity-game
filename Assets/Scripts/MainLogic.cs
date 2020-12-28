@@ -26,8 +26,6 @@ public class MainLogic : MonoBehaviour
         if (_api == null)
             _api = FindObjectOfType<GameApi>();
 
-        //if (_api == null)
-            //Debug.LogError("'Api' field must be set!");
     }
 
     public void OnRegisterButtonClick()
@@ -72,9 +70,6 @@ public class MainLogic : MonoBehaviour
             if (error)
                 Debug.LogError("Error:" + data);
             else {
-                
-                //var json = SimpleJSON.JSON.Parse(data);
-                //string tok = json["token"];
                 Debug.Log("Response:" + data);
                 token = "";
                 SceneManager.LoadScene("MainScene");
@@ -92,8 +87,7 @@ public class MainLogic : MonoBehaviour
             if (error)
                 Debug.LogError("Error:" + data);
             else {
-                Debug.Log("Response:" + data);
-                //SceneManager.LoadScene("LoginScene"); 
+                Debug.Log("Response:" + data); 
             }
                 
         });
