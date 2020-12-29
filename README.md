@@ -18,7 +18,7 @@ Then you could play in the game, see highscores table and log out:
 
 The rules of the game is simple. You should catch marshmallows and beware of candys. To catch it you could click on screen. If you'll catch marshmallow, scores increase by one, and if you catch candy, lifes decrease by one.
 
-![](https://github.com/deewanas/unity-game-marshmallow/blob/main/screenshots/marshm6.PNG)
+![](https://github.com/deewanas/unity-game-marshmallow/blob/main/screenshots/marshm3.PNG)
 
 Highscores table shows all highscores and your place:
 
