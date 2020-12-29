@@ -2,13 +2,11 @@
 Welcome to Marshmallow Delight!
 
 
-![](https://github.com/deewanas/unity-game-marshmallow/tree/main/screenshots/marshm1.PNG)
+![](https://github.com/deewanas/unity-game-marshmallow/blob/main/screenshots/marshm1.PNG)
 
 In this game you could register:
 
 ![](https://github.com/deewanas/unity-game-marshmallow/tree/main/screenshots/marshm6.PNG)
-
-![](https://github.com/deewanas/nodejs-authentication-app/blob/main/screenshots/1create.PNG)
 
 And log in:
 
